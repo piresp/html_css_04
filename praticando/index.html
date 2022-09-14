@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Torresmo's Bar</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <div class="box-logo">
+                <h1 id="h1-logo"><a href="index.html"><img class="logo" src="logo.png"></a></h1>
+                <h1 id="h1-titulo"><a href="index.html">Torresmo's Bar</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Cardápio</a></li>
+                    <li><a href="">Notificações</a></li>
+                    <li><a href="">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <section class="box-desde">
+            <h2 class="titulo-desde">Desde 1923</h2>
+            
+            <div>
+                <img class="img-torresmo" src="torresmo.png" alt="Prato de torresmo">
+
+                <p>O Melhor Para Você!</p>
+                <p>Conheça nossa variedade de torresmos, desde os sabores tradicionais até os saboresmais inovadores!</p>
+                <p>Além dos torresmos com pelo e sem pelo, temos alface, peixes, grelhados, panquecas e muito mais!</p>
+                <p>Prezamos pela qualidade e satisfação de nossos clientes!</p>
+                <p>Você pode vir até a pizzaria ou utilizar nosso serviço delivery. Peça pelo telefone ou através de nosso WhatsApp.</p>
+            </div>
+
+        </section>
+
+        <section class="box-main">
+            <h2 class="titulo-cardapio">Cardápio</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-dias">Dia</th>
+                        <th>Prato Principal</th>
+                        <th>Acompanhamento</th>
+                        <th>Bebida</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table-dias">Segunda</td>
+                        <td>Ornitorrinco Recheado</td>
+                        <td>Torresmo C/ Pelo</td>
+                        <td>Leite de Texugo</td>
+                        <td>8pm - 4am</td>
+                    </tr>
+                    <tr>
+                        <td class="table-dias">Terça</td>
+                        <td>Abacate dobrado</td>
+                        <td>Torresmo S/ Pelo</td>
+                        <td>Leite de Texugo</td>
+                        <td>8pm - 4am</td>
+                    </tr>
+                    <tr>
+                        <td class="table-dias">Quarta</td>
+                        <td>Rest'u donté</td>
+                        <td>Torresmo S/ Pelo</td>
+                        <td>Leite de Texugo</td>
+                        <td>8pm - 4am</td>
+                    </tr>
+                    <tr>
+                        <td class="table-dias">Quinta</td>
+                        <td>Torresmo</td>
+                        <td>Torresmo S/ Pelo</td>
+                        <td>Leite de Texugo</td>
+                        <td>8pm - 4am</td>
+                    </tr>
+                    <tr>
+                        <td class="table-dias">Sexta</td>
+                        <td>Espetinho Duvidoso</td>
+                        <td>Torresmo S/ Pelo</td>
+                        <td>Leite de Texugo</td>
+                        <td>8pm - 4am</td>
+                    </tr>
+                    <tr>
+                        <td class="table-dias">Sábado</td>
+                        <td>Torresmo</td>
+                        <td>Torresmo S/ Pelo</td>
+                        <td>Leite de Cevada</td>
+                        <td>8pm - 4am</td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="table-dias">Domingo</td>
+                        <td>Alface</td>
+                        <td>Torresmo C/ Pelo</td>
+                        <td>Amendoas Paixão</td>
+                        <td>8pm - 4am</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="mapa">
+            <h2 class="titulo-mapa">Conheça Nosso Estabelecimento</h3>
+
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824859.
+                27698338!2d-52.08475679999998!3d-20.579310899999996!2m3!1f0!2f0!3f0!3m2!1i1
+                024!2i768!4f13.1!3m3!1m2!1s0x94ba3919a31f3173%3A0xb94e7afc3f37d145!2sBar%20
+                do%20Torresmo!5e0!3m2!1spt-BR!2sbr!4v1663169265053!5m2!1spt-BR!2sbr" 
+                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+
+        <section class="box-main">
+            <h2 class="titulo-notificacao">Notificações</h3>
+
+            <form action="">
+                <label for="nomesobrenome">Nome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Fulano Cicrano">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@gmail.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <input type="submit" value="Submeter" class="enviar">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
